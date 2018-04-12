@@ -8,6 +8,8 @@ def processDirectory ( args, dirname, filenames ):
     global  cnt
     print 'Directory',dirname
     for filename in filenames:
+        if (os.path.isdir(path + dirname + "\\" + filename)):
+            continue
         temp=cv2.imread(path + dirname + "\\" + filename)
 		#os.remove(path+"\\imgs\\"+img)
         cv2.imwrite(path+"\\JPEGImages\\"+prename[0:len(prename)-len(str(cnt))]+str(cnt)+".jpg",temp)

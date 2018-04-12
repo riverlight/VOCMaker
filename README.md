@@ -7,7 +7,7 @@
 
 2. 主要是增加了 leon-rename.py 脚本，可以读取 .\imgs 的子文件夹了
 
-3. 修复了 win10的一个异常 bug，现在支持 escape 推出，空间 next 的时候可以自动存储
+3. 修复了 win10的一个异常 bug，现在支持 escape 退出，空格 next 的时候可以自动存储
 
 ### 使用方法
 
